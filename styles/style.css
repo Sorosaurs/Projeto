@@ -371,7 +371,7 @@
 
 .full-header {
     display:flex;
-    background-color: blueviolet;
+    background-color: rgb(104, 8, 8);
     color: black;
     width: 100%;
     padding: 5px;
@@ -442,10 +442,43 @@ article{
     border-radius: 15px;
     overflow: hidden;
     padding: 1rem 0.5rem;
-    box-sizing: :border-box;
-
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .Artigo-4{
-    width: 92% ;
+    width: 92%;
     height: 40%;
+}
+
+article figure{
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+article figure img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+footer{
+    background-color: rgb(104, 8, 8);
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    position: absolute;
+    text-align: center;
+    justify-self: center;
+    width: 100%;
 }
